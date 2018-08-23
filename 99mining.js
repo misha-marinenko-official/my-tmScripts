@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         99mining mod
 // @namespace    https://github.com/misha-marinenko-official/my-tmScripts
-// @version      0.2
+// @version      0.3
 // @description  Mod for https://99mining.cloud/
 // @author       Misha Marinenko
 // @downloadURL  https://raw.githubusercontent.com/misha-marinenko-official/my-tmScripts/master/99mining.js
@@ -40,6 +40,6 @@ document.querySelector("body > div.earning-bal").style.background="black";
 document.querySelector("body").style.background="black";
 document.querySelector(".earning-btn").style.margin="5px";
     document.querySelector("body").ondblclick = function(){
-        earning-btns
+        tc();
     }
 }
