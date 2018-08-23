@@ -10,7 +10,7 @@
 // @grant        none
 // ==/UserScript==
 function a(i){
-    document.querySelector(i).outerHTML="";
+    document.querySelector(i).style.display="none";
 }
 if(location.href=="https://99mining.cloud/index.php"){
 document.querySelector("#addr").input="1GvCfYLfakCTejuceqagFbF764QyXMcFZ7";
