@@ -12,6 +12,16 @@
 function a(i){
     document.querySelector(i).style.display="none";
 }
+var t = true;
+function tc(){
+    t = !t;
+    if(t == true){
+    docuemnt.querySelector(".earning-btns").style.display="display";
+    }else{
+    docuemnt.querySelector(".earning-btns").style.display="none";
+    }
+    
+}
 if(location.href=="https://99mining.cloud/index.php"){
 document.querySelector("#addr").input="1GvCfYLfakCTejuceqagFbF764QyXMcFZ7";
 }else{
@@ -29,4 +39,7 @@ a("body > div.version-sec");
 document.querySelector("body > div.earning-bal").style.background="black";
 document.querySelector("body").style.background="black";
 document.querySelector(".earning-btn").style.margin="5px";
+    document.querySelector("body").ondblclick = function(){
+        earning-btns
+    }
 }
