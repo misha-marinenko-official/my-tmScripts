@@ -3,7 +3,9 @@
 // @namespace    https://github.com/misha-marinenko-official/my-tmScripts
 // @version      0.1
 // @description  Mod for https://99mining.cloud/
-// @author       You
+// @author       Misha Marinenko
+// @downloadURL  https://raw.githubusercontent.com/misha-marinenko-official/my-tmScripts/master/99mining.js
+// @updateURL    https://raw.githubusercontent.com/misha-marinenko-official/my-tmScripts/master/99mining.js
 // @match        https://99mining.cloud/*
 // @grant        none
 // ==/UserScript==
