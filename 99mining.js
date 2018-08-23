@@ -16,9 +16,9 @@ var t = true;
 function tc(){
     t = !t;
     if(t == true){
-    docuemnt.querySelector(".earning-btns").style.display="display";
+    document.querySelector(".earning-btns").style.display="display";
     }else{
-    docuemnt.querySelector(".earning-btns").style.display="none";
+    document.querySelector(".earning-btns").style.display="none";
     }
     
 }
