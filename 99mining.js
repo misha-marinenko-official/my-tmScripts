@@ -28,4 +28,5 @@ a("body > div.version-sec");
 //body > div.earning-bal
 document.querySelector("body > div.earning-bal").style.background="black";
 document.querySelector("body").style.background="black";
+document.querySelector(".earning-btn").style.margin="5px";
 }
